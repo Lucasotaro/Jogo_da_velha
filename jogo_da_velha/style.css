@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(61, 61, 61);
+}
+
+h2 {
+    text-align: center;
+}
+
+a{
+    color: aqua;
+}
+
+#container{
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: gray;
+    border: 3px dotted black;
+}
+
+#container_jogo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#result{
+    background-color: gray;
+}
+
+.celula{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    font-size: 30px;
+    margin: 4px 2px;
+    border-radius: 3px;
+    border:3px solid aquamarine;
+    cursor: pointer;
+}
+
+.fundoX{
+    background-color: aquamarine;
+    pointer-events: none;
+}
+
+.fundoO{
+    background-color: bisque;
+    pointer-events: none;
+}
